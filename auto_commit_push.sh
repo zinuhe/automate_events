@@ -8,9 +8,11 @@
 
 NOCOLOR='\033[0m'
 YELLOW='\033[1;33m'
+now=$(date)
 
 clear
 echo -e "${YELLOW}"
+echo "$now"
 pwd
 echo -e "${NOCOLOR}"
 
